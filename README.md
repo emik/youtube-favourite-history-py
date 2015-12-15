@@ -5,6 +5,9 @@ The first time it runs, the script populates current_favourites. Every time ther
 
 You need an API key for accessing the Youtube Data API v3. Drop it into apiKey.txt. You will also need to drop the playlist ID into playlistID.txt.
 
-Then just run "python main.py"
+* Run "python setup.py" to set up tables
+* Run "python main.py" to populate your current favourites
+* Run the main script again whenever you want to check differences in video title
+* Check the updated_favourites table for any differences
 
 Sometimes I get a 500 response from the API which cuts the script short.
